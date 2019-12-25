@@ -130,7 +130,6 @@ alias :q='exit'
 
 # Git----------------------------------------
 alias g='git'
-alias o='origin'
 alias ga='git add'
 alias gc='git commit -m'
 alias gp='git push origin'
