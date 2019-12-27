@@ -118,12 +118,18 @@ fi
 
 source /opt/ros/dashing/setup.bash
 
+# キーバインドの変更
+xmodmap -e 'clear lock'
+xmodmap -e 'keycode 66 = Return NoSymbol Return'
+
+
 # aliasの設定
 
 # 基本コマンド------------------------------
 alias show='evince'
 alias jn='jupyter notebook'
-alias findn='sudo find ~ -name'
+alias findn='sudo find / -name'
+alias cdu='cd ..'
 alias sr='source'
 alias cl='clear'
 alias :q='exit'
