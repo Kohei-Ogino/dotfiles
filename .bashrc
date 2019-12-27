@@ -119,9 +119,16 @@ fi
 source /opt/ros/dashing/setup.bash
 
 # キーバインドの変更
-xmodmap -e 'clear lock'
-xmodmap -e 'keycode 66 = Return NoSymbol Return'
 
+# Caps LockをEnterに------------------------
+xmodmap -e 'clear lock'
+xmodmap -e 'keycode 66 = Return NoSymbol Return' # もとは Eisu_toggle Caps_Lock Eisu_toggle Caps_Lock
+
+# 変換をBackSpceに---------------------------
+xmodmap -e 'keycode 100 = BackSpace BackSpace BackSpace BackSpace' # もとは  Henkan_Mode NoSymbol Henkan_Mode
+
+# 「カタカナひらがなローマ字」を半角/全角漢字」に----------------
+xmodmap -e 'keycode 101 = Zenkaku_Hankaku Kanji grave asciitilde' # もとは Hiragana_Katakana Romaji Hiragana_Katakana Romaji
 
 # aliasの設定
 
