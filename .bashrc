@@ -118,30 +118,31 @@ fi
 
 source /opt/ros/dashing/setup.bash
 
-# キーバインドの変更
+# キーバインドの変更-----------------------------------------------------------------------------------
 
-# Caps LockをEnterに------------------------
+# Caps LockをEnterに
 xmodmap -e 'clear lock'
 xmodmap -e 'keycode 66 = Return NoSymbol Return' # もとは Eisu_toggle Caps_Lock Eisu_toggle Caps_Lock
 
-# 変換をBackSpceに---------------------------
+# 変換をBackSpceに
 xmodmap -e 'keycode 100 = BackSpace BackSpace BackSpace BackSpace' # もとは  Henkan_Mode NoSymbol Henkan_Mode
 
-# 「カタカナひらがなローマ字」を半角/全角漢字」に----------------
+# 「カタカナひらがなローマ字」を半角/全角漢字」に
 xmodmap -e 'keycode 101 = Zenkaku_Hankaku Kanji grave asciitilde' # もとは Hiragana_Katakana Romaji Hiragana_Katakana Romaji
 
-# aliasの設定
+# aliasの設定-------------------------------------------------------------------------------------------
 
-# 基本コマンド------------------------------
+# 基本コマンド
 alias show='evince'
 alias jn='jupyter notebook'
 alias findn='sudo find / -name'
 alias cdu='cd ..'
 alias sr='source'
+alias srbash='source ~/.bashrc'
 alias cl='clear'
 alias :q='exit'
 
-# Git----------------------------------------
+# Git
 alias g='git'
 alias ga='git add'
 alias gc='git commit -m'
@@ -155,7 +156,12 @@ alias gss='git stash save'
 alias gsl='git stash list'
 alias gsc='git stash clear'
 
-# プログラミング言語-------------------------------------
+# プログラミング言語
 alias gpp='g++'
 alias ao='./a.out'
 alias py='python3'
+
+# ROS2用
+alias cb='colcon build'
+alias srins='source install/setup.bash'
+alias ros2spr='ros2 launch spr_cic CIC_launch.py'
