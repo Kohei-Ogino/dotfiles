@@ -141,6 +141,8 @@ alias sr='source'
 alias srbash='source ~/.bashrc'
 alias cl='clear'
 alias :q='exit'
+alias vimbashrc='vim ~/.bashrc'
+alias vimvimrc='vim ~/.vimrc' 
 
 # Git
 alias g='git'
@@ -163,5 +165,5 @@ alias py='python3'
 
 # ROS2用
 alias cb='colcon build'
-alias srins='source install/setup.bash'
+alias srinst='source install/setup.bash'
 alias ros2spr='ros2 launch spr_cic CIC_launch.py'
