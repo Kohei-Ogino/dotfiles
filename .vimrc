@@ -132,6 +132,10 @@ set number " 行番号を表示
 let g:deoplete#enable_at_startup = 1
 " 常に最初の候補を選択状態にする
 set completeopt+=noinsert
+" 自動的に対応するカッコを入力
+imap { {}<LEFT>
+imap [ []<LEFT>
+imap ( ()<LEFT>
 
 "----------------------------------------------------------
 " Syntastic
