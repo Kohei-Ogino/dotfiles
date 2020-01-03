@@ -7,7 +7,7 @@ scriptencoding utf-8
 
 
 "----------------------------------------------------------
-"dein.vim
+"dein.vim 
 "----------------------------------------------------------
 if &compatible
   set nocompatible
@@ -155,7 +155,8 @@ let g:syntastic_auto_loc_list = 0
 let g:syntastic_check_on_open = 1
 " 「:wq」で終了する時も構文エラーチェックする
 let g:syntastic_check_on_wq = 1
-
+" vintでvimrcのチェック
+let g:syntastic_vim_checkers = ['vint']
 
 
 "---------------------------------------------------------
