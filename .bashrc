@@ -141,6 +141,7 @@ alias sr='source'
 alias srbash='source ~/.bashrc'
 alias cl='clear'
 alias :q='exit'
+alias sou='play'
 alias vimbashrc='vim ~/.bashrc'
 alias vimvimrc='vim ~/.vimrc' 
 
