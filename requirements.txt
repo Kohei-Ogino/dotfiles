@@ -211,7 +211,7 @@ pytz==2018.3
 pyudev==0.21.0
 pyusb==1.0.2
 pyxdg==0.25
-PyYAML==3.12
+PyYAML==5.1
 pyzmq==18.1.1
 qtconsole==4.6.0
 quality-of-service-demo-py==0.7.9
