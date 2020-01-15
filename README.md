@@ -16,5 +16,5 @@ $ sh dotfilesLink.sh
 - pip
 
 ```
-$ pip install -r pip3list.txt
+$ pip install -r requirements.txt
 ```
