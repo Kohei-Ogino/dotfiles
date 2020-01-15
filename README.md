@@ -18,3 +18,10 @@ $ sh dotfilesLink.sh
 ```
 $ pip install -r requirements.txt
 ```
+## Update
+
+-pip
+
+```
+$ pip freeze > requirements.txt
+```
