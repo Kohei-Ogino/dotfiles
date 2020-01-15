@@ -163,7 +163,7 @@ pbr==3.1.1
 pep8==1.7.1
 pexpect==4.2.1
 pickleshare==0.7.5
-Pillow==5.1.0
+Pillow==6.2.0
 pluggy==0.9.0
 pocketsphinx==0.1.15
 polyglot==16.7.4
