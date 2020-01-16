@@ -13,15 +13,15 @@ $ sh dotfilesLink.sh
 
 ## Install
 
-- pip
+- pip3
 
 ```
-$ pip install -r requirements.txt
+$ pip3 install -r requirements.txt
 ```
-## Update
+## How to update requirement.txt
 
--pip
+- pip3
 
 ```
-$ pip freeze > requirements.txt
+$ pip3 freeze > requirements.txt
 ```
