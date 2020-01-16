@@ -38,12 +38,12 @@ colcon-bash==0.4.1
 colcon-cd==0.1.1
 colcon-cmake==0.2.17
 colcon-common-extensions==0.2.1
-colcon-core==0.5.1
+colcon-core==0.5.2
 colcon-defaults==0.2.3
 colcon-devtools==0.2.2
 colcon-library-path==0.2.1
 colcon-metadata==0.2.3
-colcon-notification==0.2.11
+colcon-notification==0.2.12
 colcon-output==0.2.7
 colcon-package-information==0.3.0
 colcon-package-selection==0.2.5
