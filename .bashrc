@@ -147,6 +147,7 @@ alias vimvimrc='vim ~/.vimrc'
 
 # Git
 alias g='git'
+alias gclo='git clone'
 alias ga='git add'
 alias gc='git commit -m'
 alias gpu='git push origin'
