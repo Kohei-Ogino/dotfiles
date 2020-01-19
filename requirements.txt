@@ -67,6 +67,7 @@ defusedxml==0.6.0
 demo-nodes-py==0.7.9
 distlib==0.2.6
 distro-info===0.18ubuntu0.18.04.1
+dlib==19.19.0
 docutils==0.14
 empy==3.3.2
 entrypoints==0.3
