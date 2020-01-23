@@ -144,7 +144,7 @@ alias cl='clear'
 alias :q='exit'
 alias sou='play'
 alias sdown='shutdown -h now'
-alias pip3freeze= 'pip3 freeze > requirements.txt '
+alias pip3freeze='pip3 freeze > requirements.txt'
 alias vimbashrc='vim ~/.bashrc'
 alias vimvimrc='vim ~/.vimrc' 
 
