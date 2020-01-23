@@ -206,7 +206,7 @@ pytest-cov==2.6.1
 pytest-repeat==0.8.0
 pytest-rerunfailures==7.0
 pytest-runner==4.4
-python-apt==1.6.4
+python-apt==1.6.5+ubuntu0.2
 python-dateutil==2.6.1
 python-debian==0.1.32
 pyttsx3==2.71
