@@ -1,9 +1,9 @@
 #include <bits/stdc++.h>
-#define fin(ans) cout << ans << endl
+
 using namespace std;
 
-
 int main(void) {
-
+  ios::sync_with_stdio(false);
+  
 	return 0;
 }
