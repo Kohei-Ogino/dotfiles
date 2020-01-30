@@ -102,6 +102,15 @@ augroup fileTypeIndent " PythonとCでインデントを分ける
 augroup END
 
 
+"----------------------------------------------------------
+" 画面分割コマンド
+"----------------------------------------------------------
+nnoremap ss :<C-u>sp<CR>
+nnoremap sv :<C-u>vs<CR>
+nnoremap sj <C-w>j
+nnoremap sk <C-w>k
+nnoremap sl <C-w>l
+nnoremap sh <C-w>h
 
 
 "----------------------------------------------------------
