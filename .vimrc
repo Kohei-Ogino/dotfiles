@@ -111,6 +111,7 @@ nnoremap sj <C-w>j
 nnoremap sk <C-w>k
 nnoremap sl <C-w>l
 nnoremap sh <C-w>h
+"nnoremap se <C-w><C-w>
 
 
 "----------------------------------------------------------
@@ -130,6 +131,7 @@ nnoremap <silent><Esc><Esc> :<C-u>set nohlsearch!<CR>
 "----------------------------------------------------------
 set whichwrap=b,s,h,l,<,>,[,],~ " カーソルの左右移動で行末から次の行の行頭への移動が可能になる
 inoremap <silent> jj <ESC>
+inoremap <silent> っｊ <ESC>
 set cursorline " カーソルラインをハイライト
 set number " 行番号を表示
 
