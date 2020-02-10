@@ -175,4 +175,3 @@ alias py='python3'
 # ROS2用
 alias cb='colcon build'
 alias srinst='source install/setup.bash'
-alias ros2spr='ros2 launch spr_cic CIC.launch.py'
