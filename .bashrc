@@ -116,7 +116,9 @@ if ! shopt -oq posix; then
   fi
 fi
 
-source /opt/ros/dashing/setup.bash
+# ROS設定用
+#source /opt/ros/dashing/setup.bash # ROS2 Dashing Diademata
+source /opt/ros/melodic/setup.bash  # ROS Melodic Morenia
 
 # キーバインドの変更-----------------------------------------------------------------------------------
 
