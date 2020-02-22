@@ -168,6 +168,7 @@ alias gss='git stash save'
 alias gsl='git stash list'
 alias gsc='git stash clear'
 alias gsa='git stash apply stash@'
+alias gsuba='git submodule add'
 
 # プログラミング言語
 alias gpp='g++'
