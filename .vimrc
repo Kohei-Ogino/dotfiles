@@ -105,8 +105,8 @@ augroup END
 "----------------------------------------------------------
 " 画面分割コマンド
 "----------------------------------------------------------
-nnoremap ss :<C-u>sp<CR>
-nnoremap sv :<C-u>vs<CR>
+nnoremap ss <C-u>sp<CR>
+nnoremap sv <C-u>vs<CR>
 nnoremap sj <C-w>j
 nnoremap sk <C-w>k
 nnoremap sl <C-w>l
@@ -122,6 +122,7 @@ set ignorecase " 検索パターンに大文字小文字を区別しない
 set smartcase " 検索パターンに大文字を含んでいたら大文字小文字を区別する
 set hlsearch " 検索結果をハイライト
 
+nnoremap ds :'s'ed
 " ESCキー2度押しでハイライトの切り替え
 nnoremap <silent><Esc><Esc> :<C-u>set nohlsearch!<CR> 
 
@@ -147,6 +148,7 @@ set completeopt+=noinsert
 imap { {}<LEFT>
 imap [ []<LEFT>
 imap ( ()<LEFT>
+
 
 "----------------------------------------------------------
 " Syntastic
