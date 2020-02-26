@@ -12,11 +12,14 @@ scriptencoding utf-8
     " ここからプラグイン
     "--------------------------------------------------------
 call plug#begin()
+
+  " カラースキーム
   Plug 'joshdick/onedark.vim'
   Plug 'tomasr/molokai'
   Plug 'sff1019/vim-joker'
   Plug 'joshdick/onedark.vim'
   Plug 'itchyny/lightline.vim'
+
   Plug 'itchyny/calendar.vim' " カレンダー
   Plug 'davidhalter/jedi-vim' " 補完
   Plug 'scrooloose/nerdtree' " NERDTree
