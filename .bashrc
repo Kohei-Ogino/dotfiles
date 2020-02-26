@@ -116,9 +116,11 @@ if ! shopt -oq posix; then
   fi
 fi
 
+
 # ROS設定用
 #source /opt/ros/dashing/setup.bash # ROS2 Dashing Diademata
 source /opt/ros/melodic/setup.bash  # ROS Melodic Morenia
+
 
 # キーバインドの変更-----------------------------------------------------------------------------------
 
@@ -132,8 +134,7 @@ xmodmap -e 'keycode 100 = BackSpace BackSpace BackSpace BackSpace' # もとは  
 # 「カタカナひらがなローマ字」を半角/全角漢字」に
 xmodmap -e 'keycode 101 = Zenkaku_Hankaku Kanji grave asciitilde' # もとは Hiragana_Katakana Romaji Hiragana_Katakana Romaji
 
-# 無変換をEnterに
-xmodmap -e 'keycode 102 = Return NoSymbol Return'
+
 # aliasの設定-------------------------------------------------------------------------------------------
 
 # 基本コマンド
