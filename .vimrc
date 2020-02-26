@@ -6,50 +6,26 @@ scriptencoding utf-8
 
 
 
-"----------------------------------------------------------
-"dein.vim 
-"----------------------------------------------------------
-if &compatible
-  set nocompatible
-endif
-" Add the dein installation directory into runtimepath
-set runtimepath+=~/.vim/bundles/repos/github.com/Shougo/dein.vim
 
-if dein#load_state('~/.cache/dein')
-  call dein#begin('~/.cache/dein')
-
-  call dein#add('~/.cache/dein/repos/github.com/Shougo/dein.vim')
-
-  call dein#add('Shougo/deoplete.nvim') " 補完
-  if !has('nvim')
 
     "--------------------------------------------------------
     " ここからプラグイン
     "--------------------------------------------------------
-    
-    " カラーテーマ
-    call dein#add('tomasr/molokai')
-    call dein#add('sff1019/vim-joker')
-    call dein#add('joshdick/onedark.vim')
-    call dein#add('itchyny/lightline.vim')
-
-
-    call dein#add('itchyny/calendar.vim') " カレンダー
-    " call dein#add('davidhalter/jedi-vim') " 補完
-    call dein#add('scrooloose/nerdtree') " NERDTree
-    call dein#add('vim-python/python-syntax') " pythonシンタックス
-    call dein#add('roxma/nvim-yarp') " 補完
-    call dein#add('roxma/vim-hug-neovim-rpc') " 補完
-    call dein#add('vim-syntastic/syntastic') " シンタックス
-    call dein#add('kazukazuinaina/Tweet.vim') " Twitter
-  endif
-
-  call dein#end()
-  call dein#save_state()
-endif
-
-filetype plugin indent on
-syntax enable
+call plug#begin()
+  Plug 'joshdick/onedark.vim'
+  Plug 'tomasr/molokai'
+  Plug 'sff1019/vim-joker'
+  Plug 'joshdick/onedark.vim'
+  Plug 'itchyny/lightline.vim'
+  Plug 'itchyny/calendar.vim' " カレンダー
+  Plug 'davidhalter/jedi-vim' " 補完
+  Plug 'scrooloose/nerdtree' " NERDTree
+  Plug 'vim-python/python-syntax' " pythonシンタックス
+  Plug 'roxma/nvim-yarp' " 補完
+  Plug 'roxma/vim-hug-neovim-rpc' " 補完
+  Plug 'vim-syntastic/syntastic' " シンタックス
+  Plug 'kazukazuinaina/Tweet.vim' " Twitter
+call plug#end()
 
 
 "----------------------------------------------------------
