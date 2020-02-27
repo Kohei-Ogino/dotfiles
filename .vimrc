@@ -84,8 +84,8 @@ augroup END
 "----------------------------------------------------------
 " 画面分割コマンド
 "----------------------------------------------------------
-nnoremap ss <C-u>sp<CR>
-nnoremap sv <C-u>vs<CR>
+nnoremap ss :split<Enter>
+nnoremap sv :vsplit<Enter>
 nnoremap sj <C-w>j
 nnoremap sk <C-w>k
 nnoremap sl <C-w>l
@@ -161,7 +161,7 @@ let g:lightline = {
  \  }
 
 " カラーテーマ
-colorscheme onedark
+colorscheme molokai
 
 
 
