@@ -28,6 +28,7 @@ call plug#begin()
   Plug 'roxma/vim-hug-neovim-rpc' " 補完
   Plug 'vim-syntastic/syntastic' " シンタックス
   Plug 'kazukazuinaina/Tweet.vim' " Twitter
+  Plug 'previm/previm' "マークダウンのプレビュー
 call plug#end()
 
 
@@ -113,8 +114,8 @@ set whichwrap=b,s,h,l,<,>,[,],~ " カーソルの左右移動で行末から次�
 inoremap <silent> jj <ESC>
 inoremap <silent> っｊ <ESC>
 set cursorline " カーソルラインをハイライト
-set number " 行番号を表示
-
+"set number " 行番号を表示
+set relativenumber " 相対行番号を表示
 
 "----------------------------------------------------------
 "補完 (deoplete)
@@ -189,6 +190,9 @@ if &term =~ "xterm"
 if has('mouse')
   set mouse=a
 endif
+
+" マークダウンプレビュー用(previm/previm)
+let g:previm_open_cmd = 'open -a Google Chrome'
 
 " NERDTreeをvim起動時に表示
 autocmd StdinReadPre * let s:std_in=1
