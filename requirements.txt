@@ -172,7 +172,7 @@ polyglot==16.7.4
 prometheus-client==0.7.1
 prompt-toolkit==2.0.10
 protobuf==3.11.2
-psutil==5.4.2
+psutil==5.6.6
 ptyprocess==0.6.0
 py==1.8.0
 py-picotts==0.1.2
