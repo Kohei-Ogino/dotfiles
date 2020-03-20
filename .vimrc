@@ -162,7 +162,7 @@ let g:lightline = {
  \  }
 
 " カラーテーマ
-colorscheme molokai
+colorscheme onedark
 
 
 

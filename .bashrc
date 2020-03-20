@@ -120,7 +120,6 @@ fi
 # ROS設定用
 #source /opt/ros/dashing/setup.bash # ROS2 Dashing Diademata
 source /opt/ros/melodic/setup.bash  # ROS Melodic Morenia
-source ~/catkin_ws/devel/setup.bash #catkin_wsでビルド(catkin_make)をしたあとにできたdevel/setup.bashファイルを読み込むため
 
 
 # キーバインドの変更-----------------------------------------------------------------------------------
