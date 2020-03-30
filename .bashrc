@@ -152,6 +152,7 @@ alias sdown='shutdown -h now'
 alias pip3freeze='pip3 freeze > requirements.txt'
 alias vimbashrc='vim ~/.bashrc'
 alias vimvimrc='vim ~/.vimrc' 
+alias corona='curl https://corona-stats.online'
 
 # Git
 alias g='git'
