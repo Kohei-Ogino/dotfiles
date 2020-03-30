@@ -199,6 +199,7 @@ pycrypto==2.6.1
 pycups==1.9.73
 pydocstyle==3.0.0
 pydot==1.2.3
+pydotplus==2.0.2
 pyflakes==2.1.1
 pygame==1.9.6
 Pygments==2.2.0
