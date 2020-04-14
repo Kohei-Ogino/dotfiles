@@ -179,6 +179,7 @@ alias py='python3'
 
 # ROS用
 alias cm='catkin_make'
+alias srdev='source devel/setup.bash'
 
 # ROS2用
 alias cb='colcon build'
