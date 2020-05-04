@@ -33,7 +33,7 @@ Click==7.0
 colcon-argcomplete==0.3.3
 colcon-bash==0.4.2
 colcon-cd==0.1.1
-colcon-cmake==0.2.21
+colcon-cmake==0.2.22
 colcon-common-extensions==0.2.1
 colcon-core==0.5.9
 colcon-defaults==0.2.5
@@ -310,7 +310,7 @@ typing-extensions==3.6.6
 ubuntu-drivers-common==0.0.0
 ufw==0.36
 unattended-upgrades==0.1
-urdfdom-py==0.4.2
+urdfdom-py==0.4.3
 urllib3==1.25.7
 usb-creator==0.3.3
 vcstool==0.2.7
