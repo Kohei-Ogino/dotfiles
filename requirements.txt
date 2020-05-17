@@ -24,7 +24,7 @@ cachetools==4.0.0
 camera-calibration==1.14.0
 camera-calibration-parsers==1.11.13
 catkin==0.7.23
-catkin-pkg-modules==0.4.17
+catkin-pkg-modules==0.4.20
 certifi==2018.1.18
 cffi==1.13.2
 chainer==6.3.0
@@ -313,7 +313,7 @@ unattended-upgrades==0.1
 urdfdom-py==0.4.3
 urllib3==1.25.7
 usb-creator==0.3.3
-vcstool==0.2.7
+vcstool==0.2.8
 vim-vint==0.3.21
 virtualenv==20.0.10
 virtualenv-clone==0.5.3
