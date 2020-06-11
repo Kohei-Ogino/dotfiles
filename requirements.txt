@@ -94,6 +94,7 @@ gensim==3.8.0
 google-auth==1.10.0
 google-auth-oauthlib==0.4.1
 google-pasta==0.1.8
+googletrans==2.4.0
 greenlet==0.4.15
 grpcio==1.26.0
 h5py==2.10.0
@@ -210,7 +211,7 @@ pytest-cov==2.6.1
 pytest-repeat==0.8.0
 pytest-rerunfailures==7.0
 pytest-runner==4.4
-python-apt==1.6.5+ubuntu0.2
+python-apt==1.6.5+ubuntu0.3
 python-dateutil==2.6.1
 python-debian==0.1.32
 python-qt-binding==0.4.0
