@@ -24,7 +24,7 @@ cachetools==4.0.0
 camera-calibration==1.15.0
 camera-calibration-parsers==1.11.13
 catkin==0.7.26
-catkin-pkg-modules==0.4.20
+catkin-pkg-modules==0.4.22
 certifi==2018.1.18
 cffi==1.13.2
 chainer==6.3.0
