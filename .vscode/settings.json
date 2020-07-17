@@ -1,0 +1,25 @@
+{
+    "editor.detectIndentation": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "workbench.colorTheme": "Visual Studio Dark",
+    "[c]": {
+        "editor.tabSize": 2
+    },
+    "[cpp]": {
+        "editor.tabSize": 2
+    },
+    "[python]": {
+        "editor.tabSize": 4
+    },
+    "editor.renderWhitespace": "none",
+    "window.zoomLevel": 0,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "[css]": {
+        "editor.tabSize": 2
+    },
+    "editor.fontSize": 16,
+    "vsicons.dontShowNewVersionMessage": true
+}
