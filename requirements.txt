@@ -315,7 +315,7 @@ unattended-upgrades==0.1
 urdfdom-py==0.4.3
 urllib3==1.25.7
 usb-creator==0.3.3
-vcstool==0.2.11
+vcstool==0.2.13
 vim-vint==0.3.21
 virtualenv==20.0.10
 virtualenv-clone==0.5.3
