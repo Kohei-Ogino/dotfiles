@@ -152,7 +152,6 @@ alias pip3freeze='pip3 freeze > requirements.txt'
 alias vimbashrc='vim ~/.bashrc'
 alias vimvimrc='vim ~/.vimrc' 
 alias corona='curl https://corona-stats.online'
-alias mp='cd MyProject/'
 
 # Git
 alias g='git'
