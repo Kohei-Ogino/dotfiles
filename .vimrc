@@ -114,8 +114,8 @@ set whichwrap=b,s,h,l,<,>,[,],~ " カーソルの左右移動で行末から次�
 inoremap <silent> jj <ESC>
 inoremap <silent> っｊ <ESC>
 set cursorline " カーソルラインをハイライト
-"set number " 行番号を表示
-set relativenumber " 相対行番号を表示
+set number " 行番号を表示
+"set relativenumber " 相対行番号を表示
 
 "----------------------------------------------------------
 "補完 (deoplete)
