@@ -139,7 +139,7 @@ xmodmap -e 'keycode 101 = Zenkaku_Hankaku Kanji grave asciitilde' # もとは Hi
 
 # 基本コマンド
 alias show='evince'
-alias jn='jupyter notebook'
+alias jn='jupyter-lab'
 alias findn='sudo find / -name'
 alias cdu='cd ..'
 alias rmrf='rm -rf'
