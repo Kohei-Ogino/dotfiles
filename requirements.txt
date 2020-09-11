@@ -321,7 +321,7 @@ ubuntu-drivers-common==0.0.0
 ufw==0.36
 unattended-upgrades==0.1
 urdfdom-py==0.4.3
-urllib3==1.23
+urllib3==1.25.10
 usb-creator==0.3.3
 vcstool==0.2.14
 vim-vint==0.3.21
