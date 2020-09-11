@@ -17,8 +17,8 @@ beautifulsoup4==4.6.0
 bleach==3.1.4
 bondpy==1.8.5
 boto==2.49.0
-boto3==1.9.217
-botocore==1.15.0
+boto3==1.9.4
+botocore==1.12.4
 Brlapi==0.6.6
 cachetools==4.0.0
 camera-calibration==1.15.0
@@ -114,7 +114,7 @@ itsdangerous==1.1.0
 Janome==0.3.9
 jedi==0.15.1
 Jinja2==2.10.3
-jmespath==0.9.4
+jmespath==0.9.3
 joblib==0.14.1
 joint-state-publisher==1.12.15
 json5==0.9.5
@@ -159,11 +159,11 @@ nltk==3.4.5
 nose2==0.7.4
 notebook==6.0.2
 notify2==0.3
-numpy==1.16.3
+numpy==1.17.3
 oauth==1.0.1
 oauthlib==3.1.0
 olefile==0.45.1
-opencv-python==4.1.1.26
+opencv-python==3.4.8.29
 opt-einsum==3.1.0
 pandas==0.25.3
 pandas-datareader==0.8.1
@@ -218,7 +218,7 @@ pytest-repeat==0.8.0
 pytest-rerunfailures==7.0
 pytest-runner==4.4
 python-apt==1.6.5+ubuntu0.3
-python-dateutil==2.6.1
+python-dateutil==2.7.3
 python-debian==0.1.32
 python-qt-binding==0.4.3
 pyttsx3==2.71
@@ -283,7 +283,7 @@ rqt-top==0.4.8
 rqt-topic==0.4.11
 rqt-web==0.4.8
 rsa==3.4.2
-s3transfer==0.3.3
+s3transfer==0.1.13
 scikit-learn==0.22.1
 scipy==1.4.1
 seaborn==0.9.0
@@ -291,7 +291,8 @@ SecretStorage==2.3.1
 Send2Trash==1.5.0
 sensor-msgs==1.12.7
 simplejson==3.13.2
-six==1.12.0
+six==1.11.0
+sklearn==0.0
 smach==2.0.1
 smart-open==1.8.4
 smclib==1.8.5
@@ -320,7 +321,7 @@ ubuntu-drivers-common==0.0.0
 ufw==0.36
 unattended-upgrades==0.1
 urdfdom-py==0.4.3
-urllib3==1.25.7
+urllib3==1.23
 usb-creator==0.3.3
 vcstool==0.2.14
 vim-vint==0.3.21
