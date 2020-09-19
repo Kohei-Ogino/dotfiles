@@ -138,7 +138,7 @@ xmodmap -e 'keycode 101 = Zenkaku_Hankaku Kanji grave asciitilde' # もとは Hi
 # aliasの設定-------------------------------------------------------------------------------------------
 
 # 基本コマンド
-alias show='evince'
+alias show='xdg-open' # evince &
 alias jn='jupyter-lab'
 alias findn='sudo find / -name'
 alias cdu='cd ..'
@@ -162,6 +162,7 @@ alias gc='git commit -m'
 alias gpu='git push origin'
 alias gpul='git pull origin'
 alias gco='git checkout'
+alias gcob='git checkout -b'
 alias gcom='git checkout master'
 alias gcod='git checkout develop'
 alias gb='git branch'
@@ -194,3 +195,7 @@ alias VMEmulator='~/nand2tetris/tools/VMEmulator.sh'
 alias Assembler='~/nand2tetris/tools/Assembler.sh'
 alias JackCompiler='~/nand2tetris/tools/JackCompiler.sh'
 alias TextComparer='~/nand2tetris/tools/TextComparer.sh'
+
+# venv for Hait Lab
+alias ac='source ~/group-f/.venv/bin/activate'
+alias dac='deactivate'
