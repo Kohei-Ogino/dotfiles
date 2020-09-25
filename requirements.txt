@@ -302,7 +302,7 @@ sympy==1.4
 system-service==0.3
 systemd-python==234
 tensorboard==2.1.0
-tensorflow==2.1.0
+tensorflow==2.1.2
 tensorflow-estimator==2.1.0
 termcolor==1.1.0
 terminado==0.8.3
