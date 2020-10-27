@@ -56,7 +56,7 @@ colorama==0.4.3
 command-not-found==0.3
 cov-core==1.15.0
 coverage==4.5.3
-cryptography==2.8
+cryptography==3.2
 cupshelpers==1.0
 cv-bridge==1.13.0
 cycler==0.10.0
