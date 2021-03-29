@@ -200,7 +200,7 @@ pydot==1.2.3
 pydotplus==2.0.2
 pyflakes==2.1.1
 pygame==1.9.6
-Pygments==2.2.0
+Pygments==2.7.4
 pygobject==3.26.1
 pygraphviz==1.4rc1
 PyICU==2.3.1
