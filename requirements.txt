@@ -282,7 +282,7 @@ rqt-srv==0.4.8
 rqt-top==0.4.8
 rqt-topic==0.4.11
 rqt-web==0.4.8
-rsa==3.4.2
+rsa==4.7
 s3transfer==0.1.13
 scikit-learn==0.22.1
 scipy==1.4.1
